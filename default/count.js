@@ -10,8 +10,8 @@
 module.exports = function (role) {
     var array = [];
     for(var i in Game.creeps) {
-        console.log('is this creep:' + Game.creeps[i].role +' a role: ' + role);
-        if(Game.creeps[i].memory == role) {
+        // console.log('Is this creep: ' + Game.creeps[i] +' a role: ' + role);
+        if(Game.creeps[i].memory.role == role) {
           array.push(Game.creeps[i]);
         }
     }
