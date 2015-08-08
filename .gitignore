@@ -6,6 +6,8 @@
  
 # The distribution directories
 /dist*/
+# Account info
+/account.json
  
 ##########################
 ##  __   __   __|  ___  ##

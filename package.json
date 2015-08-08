@@ -1,0 +1,30 @@
+{
+  "name": "screeps",
+  "version": "0.1.0",
+  "description": "My screeps scripts",
+  "author": "AJ Zane <androiddreams@AJZane.com>",
+  "homepage": "https://github.com/azanebrain/screeps",
+  "engines": {
+    "node": ">=v0.10.22"
+  },
+  "scripts": {
+    "build": "echo \"Error: there is no build command specified\" && exit 1",
+    "serve": "echo \"Error: there is no serve command specified\" && exit 1",
+    "start": "grunt screeps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-screeps": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/azanebrain/screeps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azanebrain/screeps/issues"
+  },
+  "private": true,
+  "license": "GPL2"
+}
